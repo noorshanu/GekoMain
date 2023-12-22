@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  background-color: #000206;
+}
+
+.hero-bg{
+  background-image: url('/images/hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position-y: 35%;
+}
