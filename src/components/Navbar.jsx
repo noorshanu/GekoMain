@@ -13,11 +13,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" p-4 absolute w-full top-0">
+    <nav className=" p-4 absolute w-full top-0 z-[1000]">
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-white">
-          <span>Logo</span>
+            <img src="images/logo.png" alt="" />
+        
         </div>
 
         {/* Navigation Menu */}
@@ -27,7 +28,7 @@ const Navbar = () => {
           <a href="#" className="text-white">Services</a>
         </div>
         <div>
-            <a href="">noor</a>
+            <a href="" className=' text-white'>Join Us</a>
         </div>
 
         {/* Mobile Menu Button */}
