@@ -6,7 +6,7 @@ function Roadmap() {
     <img src="images/sun.png" alt="" className=' absolute -top-[8%] right-0 hidden sm:block' />
     <img src="images/start1.png" alt="" className=' absolute left-0 top-[18%] hidden sm:block' />
     <img src="images/start2.png" alt="" className=' absolute left-1/4 top-[8%] hidden sm:block' />
-        <div className=' container mx-auto relative z-50'>
+        <div className='container-wrapper mx-auto relative z-50'>
         <div>
             <h1 className=' uppercase font-geeko text-5xl sm:text-[96px] font-normal text-center text-bg '>
            Roadmap

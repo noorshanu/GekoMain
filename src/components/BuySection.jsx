@@ -3,8 +3,8 @@ import React from 'react'
 function BuySection() {
   return (
     <section className='bg-black-main relative '>
-         <img src="images/bg-black.png" alt=""  className=' w-full absolute -top-[350%] hidden sm:block'/>
-        <div className=' container mx-auto'>
+         <img src="images/bg-black.png" alt=""  className=' w-full absolute -top-[350%] hidden sm:block opacity-70'/>
+        <div className=' container-wrapper mx-auto'>
             <div className=' flex justify-center'>
                 <div className=' relative z-40 flex justify-center gap-4 p-4 '>
                   

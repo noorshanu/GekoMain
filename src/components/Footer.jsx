@@ -7,7 +7,7 @@ function Footer() {
   return (
  <section className=' py-7'>
     <img src="images/foot-gold.png" alt="" className='w-full' />
-    <div className=' container mx-auto mt-[5rem]'>
+    <div className=' container-wrapper mx-auto mt-[5rem]'>
 
         <div className=' flex flex-col sm:flex-row items-center justify-between mb-1 sm:mb-[2rem]'>
             <img src="images/logo.png" alt="" />

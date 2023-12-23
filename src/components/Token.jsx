@@ -4,7 +4,7 @@ function Token() {
   return (
    <section className=' relative'>
     <img src="images/geeko-black.png" alt=""  className=' absolute '/>
-    <div className=' container mx-auto relative z-50'>
+    <div className=' container-wrapper mx-auto relative z-50'>
         <div>
             <h1 className=' uppercase font-geeko text-5xl sm:text-[96px] font-normal text-center text-bg '>
             tokenomics
