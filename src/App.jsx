@@ -28,11 +28,14 @@ function App() {
     <div className="bg-t my-[6rem]">
     
     </div>
+<div className="bg-sec">
+
 
     <div className=" my-[5rem]">
    <Roadmap/>
     </div>
     <Footer/>
+    </div>
     </>
   )
 }

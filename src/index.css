@@ -31,8 +31,16 @@ color: #fff;
  height: 20rem;
 
 
+
+
 }
 
+.bg-sec{
+  background-image: url('../public/images/bg-big.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+}
 .text-bg{
   background: linear-gradient(180deg, #8F01FF 0%, #FE5FAC 73.33%);
 background-clip: text;

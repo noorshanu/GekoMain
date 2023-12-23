@@ -5,7 +5,7 @@ function Hero() {
     <section className='hero-bg relative'>
        
         <div className='container mx-auto  '>
-            <img src="images/gekotxt.png" alt="" className=' relative z-40 mx-auto pt-[29%]' />
+            <img src="images/gekotxt.png" alt="" className=' relative z-40 mx-auto pt-[18%]' />
         </div>
     </section>
   )
