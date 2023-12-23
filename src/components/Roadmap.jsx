@@ -10,6 +10,8 @@ function Roadmap() {
             </h1>
         </div>
 
+        <img src="images/rocket.png" alt="" className='mx-auto' />
+
         
 
     </div>

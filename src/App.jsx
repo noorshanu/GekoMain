@@ -1,4 +1,5 @@
 import BuySection from "./components/BuySection"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Partners from "./components/Partners"
@@ -31,6 +32,7 @@ function App() {
     <div className=" my-[5rem]">
    <Roadmap/>
     </div>
+    <Footer/>
     </>
   )
 }
