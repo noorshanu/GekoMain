@@ -4,9 +4,9 @@ function Footer() {
   return (
  <section className=' py-7'>
     <img src="images/foot-gold.png" alt="" className='w-full' />
-    <div className=' container mx-auto'>
+    <div className=' container mx-auto mt-[5rem]'>
 
-        <div className=' flex items-center justify-between'>
+        <div className=' flex items-center justify-between mb-[2rem]'>
             <img src="images/logo.png" alt="" />
 
             <img src="images/fuk.png" alt="" />
