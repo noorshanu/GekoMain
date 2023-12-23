@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className=" p-4 absolute w-full top-0 z-[1000] border-b sm:border-none">
-      <img src="images/nav-black.png" alt="" className=' absolute -top-[0%] w-[99%] overflow-hidden overflow-x-hidden' />
+      <img src="images/nav-black.png" alt="" className=' absolute -top-[0%] w-[99%] overflow-hidden overflow-x-hidden hidden sm:block' />
       <div className="container mx-auto flex items-center justify-between relative">
         
         {/* Logo */}
@@ -46,7 +46,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden fixed top-[5.5%] right-0 w-2/3 h-full bg-[#1d093b] p-6 ">
+          <div className="md:hidden fixed top-[6%] right-0 w-2/3 h-full bg-[#1d093b] p-6 ">
             <div className="flex flex-col space-y-4 text-white mt-6">
               <a href="#" onClick={closeMobileMenu}>WHITEPAPER</a>
               <a href="#roadmap" onClick={closeMobileMenu}>ROADMAP</a>

@@ -60,3 +60,13 @@ background-clip: text;
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+@media (max-width:768px) {
+  .hero-bg{
+    background-image: url('/images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    background-position-y: 35%;
+  }
+}

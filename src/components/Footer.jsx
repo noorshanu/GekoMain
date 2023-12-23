@@ -9,7 +9,7 @@ function Footer() {
     <img src="images/foot-gold.png" alt="" className='w-full' />
     <div className=' container mx-auto mt-[5rem]'>
 
-        <div className=' flex items-center justify-between mb-[2rem]'>
+        <div className=' flex flex-col sm:flex-row items-center justify-between mb-1 sm:mb-[2rem]'>
             <img src="images/logo.png" alt="" />
 
             <img src="images/fuk.png" alt="" />
@@ -17,7 +17,7 @@ function Footer() {
         </div>
         <img src="images/line.png" alt="" className=' mx-auto' />
 
-        <div className=' flex justify-between items-center mt-9 mb-4'>
+        <div className=' flex justify-between items-center mt-9 mb-4 flex-col sm:flex-row gap-2'>
             <div className=' flex items-center gap-4'>
                 <a href="/" className=' text-xl text-[#fff] font-normal'><FaTwitter /></a>
                 <a href="/" className=' text-xl text-[#fff] font-normal'><img src="images/bsc.png" alt="" /></a>
