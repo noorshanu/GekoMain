@@ -18,7 +18,10 @@ function App() {
     <Hero/>
     <BuySection/>
     <VideoSection/>
+    <div className=" mt-16">
     <Token/>
+    </div>
+   
     <div className=" py-8 mt-[8rem]">
     <WebsiteSlide/>
     </div>

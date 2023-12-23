@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,8 +13,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" p-4 absolute w-full top-0 z-[1000]">
-      <div className="container mx-auto flex items-center justify-between">
+    <nav className=" p-4 absolute w-full top-0 z-[1000] border-b sm:border-none">
+      <img src="images/nav-black.png" alt="" className=' absolute -top-[0%] w-[99%] overflow-hidden overflow-x-hidden' />
+      <div className="container mx-auto flex items-center justify-between relative">
+        
         {/* Logo */}
         <div className="text-white">
             <img src="images/logo.png" alt="" />
@@ -23,31 +25,37 @@ const Navbar = () => {
 
         {/* Navigation Menu */}
         <div className="hidden md:flex items-center space-x-4">
-          <a href="#" className="text-white">Home</a>
-          <a href="#" className="text-white">About</a>
-          <a href="#" className="text-white">Services</a>
+          <a href="#" className="text-white text-lg font-normal">WHITEPAPER</a>
+          <a href="#" className="text-white text-lg">ROADMAP</a>
+          <a href="#" className="text-white text-lg">TOKENOMIC</a>
+          <a href="#" className="text-white text-lg">HOW TO USE</a>
         </div>
         <div>
-            <a href="" className=' text-white'>Join Us</a>
+            <a href="" className=' text-white hidden sm:block'><img src="images/join.png" alt="" /></a>
         </div>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button
             className="text-white focus:outline-none"
-            onClick={toggleMobileMenu}
+            onClick={isMobileMenuOpen ?  closeMobileMenu : toggleMobileMenu }
           >
-            <FaBars size={24} />
+            {isMobileMenuOpen ? <FaTimes/>:  <FaBars size={24} />}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-75 flex items-center justify-center">
-            <div className="flex flex-col space-y-4 text-white">
-              <a href="#" onClick={closeMobileMenu}>Home</a>
-              <a href="#" onClick={closeMobileMenu}>About</a>
-              <a href="#" onClick={closeMobileMenu}>Services</a>
+          <div className="md:hidden fixed top-[5.5%] right-0 w-2/3 h-full bg-[#1d093b] p-6 ">
+            <div className="flex flex-col space-y-4 text-white mt-6">
+              <a href="#" onClick={closeMobileMenu}>WHITEPAPER</a>
+              <a href="#roadmap" onClick={closeMobileMenu}>ROADMAP</a>
+              <a href="#token" onClick={closeMobileMenu}>TOKENOMIC</a>
+              <a href="#how" onClick={closeMobileMenu}>HOW TO Use</a>
+              <a href="" className=' text-white '><img src="images/join.png" alt="" /></a>
+            
+   
+       
             </div>
           </div>
         )}
