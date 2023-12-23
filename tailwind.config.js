@@ -5,6 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      "open-sans": "'Open Sans', sans-serif",
+   
+      geeko:'geeko',
+     
+
+    },
     extend: {},
   },
   plugins: [],

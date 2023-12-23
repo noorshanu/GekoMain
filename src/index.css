@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "geeko";
+  src: url("/Fonts/geeko.ttf");
+}
+
+.font-geeko {
+  font-family: "geeko";
+}
+
 body{
   background-color: #000206;
+
+  font-family: "geeko";
 }
 
 .hero-bg{
@@ -14,7 +26,29 @@ body{
   background-position-y: 35%;
 }
 
-.bg-black-main{
+.bg-t{
+  background-image: url('../public//images/bg-blue.png');
+ height: 20rem;
 
 
+}
+
+.text-bg{
+  background: linear-gradient(180deg, #8F01FF 0%, #FE5FAC 73.33%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+#brand {
+	filter: grayscale(100%); opacity :0.45;
+	
+}
+
+#brand:hover{
+	filter: grayscale(0%); opacity: 1;
+  background-image: url('../public/images/glow.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
