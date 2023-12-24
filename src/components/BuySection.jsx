@@ -2,7 +2,7 @@ import React from 'react'
 
 function BuySection() {
   return (
-    <section className='bg-black-main relative '>
+    <section className='bg-black-main relative -mt-12 '>
          <img src="images/bg-black.png" alt=""  className=' w-full absolute -top-[350%] hidden sm:block opacity-70'/>
         <div className=' container-wrapper mx-auto'>
             <div className=' flex justify-center'>

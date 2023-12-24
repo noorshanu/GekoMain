@@ -9,32 +9,34 @@ import VideoSection from "./components/VideoSection"
 import WebsiteSlide from "./components/WebsiteSlide"
 
 
+
 function App() {
  
 
   return (
     <>
+     {/* <ChromeDinoGame className=' relative z-50' /> */}
     <Navbar/>
     <Hero/>
     <BuySection/>
     <VideoSection/>
-    <div className=" mt-16">
+    <div className=" mt-4 sm:mt-16">
     <Token/>
     </div>
    
-    <div className=" py-8 mt-[8rem]">
+    <div className=" py-2 sm:py-8 mt-2 sm:mt-[8rem]">
     <WebsiteSlide/>
     </div>
-    <div className=" my-[5rem]">
+    <div className=" my-2 sm:my-[5rem]">
     <Partners/>
     </div>
-    <div className="bg-t my-[6rem]">
+    <div className="bg-t sm:my-[6rem] my-2">
     
     </div>
 <div className="bg-sec">
 
 
-    <div className=" my-[5rem]">
+    <div className=" my-2 sm:my-[5rem]">
    <Roadmap/>
     </div>
     <Footer/>

@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className=" p-4 absolute w-full top-0 z-[1000] border-b sm:border-none">
-      <img src="images/nav-black.png" alt="" className=' absolute -top-[0%] w-[99%] overflow-hidden overflow-x-hidden hidden sm:block opacity-70' />
+      <img src="images/nav-black.png" alt="" className=' absolute -top-[0%] w-[99%] overflow-hidden overflow-x-hidden hidden sm:hidden opacity-70' />
       <div className="container-wrapper mx-auto flex items-center justify-between relative">
         
         {/* Logo */}

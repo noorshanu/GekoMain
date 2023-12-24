@@ -1,14 +1,18 @@
-import React from 'react'
+import React from "react";
+import ChromeDinoGame from "react-chrome-dino";
 
 function Hero() {
   return (
-    <section className='hero-bg relative'>
-       
-        <div className='container-wrapper mx-auto  '>
-            <img src="images/gekotxt.png" alt="" className=' relative z-40 mx-auto pt-[44%] sm:pt-[20%] px-4 sm:px-0' />
-        </div>
+    <section className="hero-bg relative">
+      <div className="container-wrapper mx-auto relative ">
+        <img
+          src="images/gekotxt.png"
+          alt=""
+          className=" relative z-50 pt-[50%] sm:pt-[15%]"
+        />
+      </div>
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
