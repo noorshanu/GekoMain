@@ -2,7 +2,7 @@ import React from 'react'
 
 function Roadmap() {
   return (
-   <section className=' relative sm:-mt-0 -mt-[44%] '>
+   <section className=' relative sm:-mt-0 -mt-[44%]  ' id='roadmap'>
     <img src="images/sun.png" alt="" className=' absolute -top-[8%] right-0 hidden sm:block' />
     <img src="images/start1.png" alt="" className=' absolute left-0 top-[18%] hidden sm:block' />
     <img src="images/start2.png" alt="" className=' absolute left-1/4 top-[8%] hidden sm:block' />

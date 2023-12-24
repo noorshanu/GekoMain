@@ -11,7 +11,9 @@ function BuySection() {
                     <img src="/images/btn1.png" alt="" className=' sm:w-auto w-[100px ] h-[40px] sm:h-auto' />
                  
                    
-                    <img src="/images/btn2.png" alt="" className='sm:w-auto w-[100px ] h-[40px] sm:h-auto' />
+                   <a href="https://t.me/geekocoin">
+                   <img src="/images/btn2.png" alt="" className='sm:w-auto w-[100px ] h-[40px] sm:h-auto' />
+                    </a> 
                 </div>
 
             </div>

@@ -26,9 +26,9 @@ const Navbar = () => {
         {/* Navigation Menu */}
         <div className="hidden md:flex items-center space-x-4">
           <a href="#" className="text-white text-lg font-normal">WHITEPAPER</a>
-          <a href="#" className="text-white text-lg">ROADMAP</a>
-          <a href="#" className="text-white text-lg">TOKENOMIC</a>
-          <a href="#" className="text-white text-lg">HOW TO USE</a>
+          <a href="#roadmap" className="text-white text-lg">ROADMAP</a>
+          <a href="#token" className="text-white text-lg">TOKENOMIC</a>
+          <a href="#how" className="text-white text-lg">HOW TO USE</a>
         </div>
         <div>
             <a href="" className=' text-white hidden sm:block'><img src="images/join.png" alt="" /></a>
@@ -52,7 +52,7 @@ const Navbar = () => {
               <a href="#roadmap" onClick={closeMobileMenu}>ROADMAP</a>
               <a href="#token" onClick={closeMobileMenu}>TOKENOMIC</a>
               <a href="#how" onClick={closeMobileMenu}>HOW TO Use</a>
-              <a href="" className=' text-white '><img src="images/join.png" alt="" /></a>
+              <a href="https://t.me/geekocoin" className=' text-white '><img src="images/join.png" alt="" /></a>
             
    
        
