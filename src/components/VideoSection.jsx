@@ -3,7 +3,7 @@ import React from "react";
 function VideoSection() {
   return (
     <section className=" mt-0 sm:mt-16">
-      <div className=" container-wrapper mx-auto">
+      <div className=" container-wrapper mx-auto" data-aos="fade-up">
         <div className=" relative">
           <img src="images/video.png" alt="" className=" mx-auto w-full" />
 

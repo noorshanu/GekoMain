@@ -6,7 +6,7 @@ function BuySection() {
          <img src="images/bg-black.png" alt=""  className=' w-full absolute -top-[350%] hidden sm:block opacity-70'/>
         <div className=' container-wrapper mx-auto'>
             <div className=' flex justify-center'>
-                <div className=' relative z-40 flex justify-center gap-4 p-4 '>
+                <div className=' relative z-40 flex justify-center gap-4 p-4  ' data-aos="fade-right">
                   
                     <img src="/images/btn1.png" alt="" className=' sm:w-auto w-[100px ] h-[40px] sm:h-auto' />
                  

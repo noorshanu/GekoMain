@@ -16,12 +16,12 @@ function Roadmap() {
         <img src="images/rocket.png" alt="" className='mx-auto h-[200px] sm:h-auto' />
 
         <div>
-          <img src="images/step1.png" alt="" className=' mx-auto sm:p-0 p-4' />
-          <img src="images/step2.png" alt="" className='ml-0 sm:ml-[40%] sm:p-0 p-4' />
+          <img src="images/step1.png" alt="" className=' mx-auto sm:p-0 p-4' data-aos="fade-right" />
+          <img src="images/step2.png" alt="" className='ml-0 sm:ml-[40%] sm:p-0 p-4' data-aos="fade-left" />
           
 
-          <img src="images/step3.png" alt="" className='ml-0 sm:ml-[20%] sm:p-0 p-4' />
-          <img src="images/step4.png" alt="" className='ml-0 sm:ml-[35%] sm:p-0 p-4' />
+          <img src="images/step3.png" alt="" className='ml-0 sm:ml-[20%] sm:p-0 p-4' data-aos="fade-right" />
+          <img src="images/step4.png" alt="" className='ml-0 sm:ml-[35%] sm:p-0 p-4' data-aos="fade-left" />
         </div>
 
         
