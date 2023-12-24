@@ -8,8 +8,11 @@ function Hero() {
         <img
           src="images/gekotxt.png"
           alt=""
-          className=" relative z-50 pt-[50%] sm:pt-[15%]"
+          className=" relative z-50 pt-[50%] sm:pt-[13%]"
         />
+        <h2 className=" text-center relative z-40 text-5xl">
+        One Stop Crypto Platform
+        </h2>
       </div>
     </section>
   );
