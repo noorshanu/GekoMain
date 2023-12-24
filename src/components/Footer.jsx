@@ -19,9 +19,9 @@ function Footer() {
 
         <div className=' flex justify-between items-center mt-9 mb-4 flex-col sm:flex-row gap-2'>
             <div className=' flex items-center gap-4'>
-                <a href="/" className=' text-xl text-[#fff] font-normal'><FaTwitter /></a>
+                <a href="https://x.com/geekocoin" className=' text-xl text-[#fff] font-normal'><FaTwitter /></a>
                 <a href="/" className=' text-xl text-[#fff] font-normal'><img src="images/bsc.png" alt="" /></a>
-                <a href="/" className=' text-xl text-[#fff] font-normal'><FaTelegramPlane /></a>
+                <a href="https://t.me/geekocoin" className=' text-xl text-[#fff] font-normal'><FaTelegramPlane /></a>
                 <a href="/" className=' text-xl text-[#fff] font-normal'><FaMedium /></a>
                 <a href="/" className=' text-xl text-[#fff] font-normal'><SiGitbook /></a>
 
