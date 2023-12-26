@@ -1,21 +1,21 @@
 import React from "react";
+import DinoGame from "./DinoGame";
 
 
 function Hero() {
   return (
     <section className="hero-bg relative">
-  
+   <DinoGame className=" "/>
     
-      <div className=" z-50 container-wrapper mx-auto relative " data-aos="fade-right"
-     data-aos-offset="300" data-aos-duration="2000" 
-     data-aos-easing="ease-in-sine">
-        <iframe src="https://offline-dino-game.firebaseapp.com/" frameborder="0"></iframe>
+      <div className=" z-50 container-wrapper mx-auto relative  "  >
+        <img src="images/btc.png" alt="" className=" absolute top-[30%] sm:top-[20%] floating h-[50px]  sm:h-auto" />
+      
         <img
           src="images/gekotxt.png"
           alt=""
-          className=" relative z-50 pt-[42%] sm:pt-[13%] sm:block hidden"
+          className=" relative z-50 pt-[45%] sm:pt-[18%] sm:block hidden mx-auto h-[550px]"
         />
-        <img src="images/mob-geeko.png" alt=""  className=" block sm:hidden pt-[32%] mx-auto" />
+        <img src="images/mob-geeko.png" alt=""  className=" block sm:hidden pt-[38%] mx-auto" />
         <h2 className=" text-center relative z-40 text-lg sm:text-5xl">
         One Stop Crypto Platform
         </h2>
