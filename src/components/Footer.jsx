@@ -12,7 +12,7 @@ function Footer() {
         <div className=' flex flex-col sm:flex-row items-center justify-between mb-1 sm:mb-[2rem]'>
             <img src="images/logo.png" alt="" />
 
-            <img src="images/fuk.png" alt="" />
+            <img src="images/fuk.png" alt="" className='hithere' />
 
         </div>
         <img src="images/line.png" alt="" className=' mx-auto' />

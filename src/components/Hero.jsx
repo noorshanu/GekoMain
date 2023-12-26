@@ -9,7 +9,7 @@ function Hero() {
     
       <div className=" z-50 container-wrapper mx-auto relative  "  >
         <img src="images/btc.png" alt="" className=" absolute top-[30%] sm:top-[30%]  sm:left-[6%] floating h-[50px]  sm:h-auto" />
-        <img src="images/solana.png" alt="" className=" absolute top-[30%] sm:top-[30%]  sm:right-[6%] floating h-[50px]  sm:h-auto" />
+        <img src="images/solana.png" alt="" className=" absolute top-[30%] sm:top-[30%] right-0  sm:right-[6%] floating h-[50px]  sm:h-auto" />
 
       
         <img
