@@ -74,6 +74,6 @@ background-clip: text;
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
-    background-position-y: 35%;
+    background-position-x: 35%;
   }
 }

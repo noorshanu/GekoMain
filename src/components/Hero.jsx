@@ -11,8 +11,9 @@ function Hero() {
         <img
           src="images/gekotxt.png"
           alt=""
-          className=" relative z-50 pt-[42%] sm:pt-[13%]"
+          className=" relative z-50 pt-[42%] sm:pt-[13%] sm:block hidden"
         />
+        <img src="images/mob-geeko.png" alt=""  className=" block sm:hidden pt-[32%] mx-auto" />
         <h2 className=" text-center relative z-40 text-lg sm:text-5xl">
         One Stop Crypto Platform
         </h2>
