@@ -4,7 +4,7 @@ function Token() {
   return (
    <section className=' relative' id='token'>
     <img src="images/geeko-back.png" alt="" className=' absolute top-[35%] mx-auto left-0 right-0' data-aos="fade-right" />
-    <img src="images/geeko-black.png" alt=""  className=' absolute '/>
+    <img src="images/geeko-black.png" alt=""  className=' absolute hidden sm:block '/>
     <div className=' container-wrapper mx-auto relative z-50'>
         <div>
             <h1 className=' uppercase font-geeko text-5xl sm:text-[96px] font-normal text-center text-bg '>
