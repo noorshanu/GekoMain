@@ -73,7 +73,7 @@ background-clip: text;
     background-image: url('/images/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 40vh;
+    height: 400px;
     background-position-y: 35%;
   }
 }
