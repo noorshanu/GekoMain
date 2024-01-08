@@ -12,8 +12,8 @@ const Navbar = () => {
     setMobileMenuOpen(false);
   };
 
-  return (
-    <nav className=" p-4 absolute w-full top-0 z-[1000]  sm:border-none">
+  return ( 
+    <nav className=" p-4 absolute w-full top-0 z-[1000]  sm:border-none bg-[#000000a5]">
       <img src="images/nav-black.png" alt="" className=' absolute -top-[0%] w-[99%] overflow-hidden overflow-x-hidden hidden sm:hidden opacity-70' />
       <div className="container-wrapper mx-auto flex items-center justify-between relative">
         
