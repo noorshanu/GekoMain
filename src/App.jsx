@@ -7,6 +7,7 @@ import Roadmap from "./components/Roadmap"
 import Token from "./components/Token"
 import VideoSection from "./components/VideoSection"
 import WebsiteSlide from "./components/WebsiteSlide"
+import MobRoad from "./components/mobRoad"
 
 
 
@@ -38,6 +39,7 @@ function App() {
 
     <div className=" my-2 sm:my-[5rem]">
    <Roadmap/>
+   <MobRoad/>
     </div>
     <Footer/>
     </div>

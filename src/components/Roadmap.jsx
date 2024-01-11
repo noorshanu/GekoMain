@@ -15,7 +15,7 @@ function Roadmap() {
 
         <img src="images/rocket.png" alt="" className='mx-auto h-[200px] sm:h-auto floating' />
 
-        <div>
+        <div className=' hidden sm:block'>
           <img src="images/step1.png" alt="" className=' mx-auto sm:p-0 p-4' data-aos="fade-right" />
           <img src="images/step2.png" alt="" className='ml-0 sm:ml-[20%] sm:p-0 p-4' data-aos="fade-left" />
           
