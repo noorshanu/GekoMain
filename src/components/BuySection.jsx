@@ -8,7 +8,7 @@ function BuySection() {
             <div className=' flex justify-center'>
                 <div className=' relative z-40 flex justify-center gap-4 p-4  ' >
                   
-                    <img src="/images/btn1.png" alt="" className=' sm:w-auto w-[100px ] h-[40px] sm:h-auto' />
+                    <img src="/images/btn1.png" alt="" className=' sm:w-auto w-[100px ] h-[40px] sm:h-auto cursor-pointer' />
                  
                    
                    <a href="https://t.me/geekocoin">
