@@ -1,5 +1,5 @@
 {
-    "name": "HeraV2 Main Tokens",
+    "name": "GEEKO Main Tokens",
     "logoURI": "https://raw.githubusercontent.com/heraaggregator/tokens/b5806bacb8761bc64746d6492c1c9704da6cc3d3/hera.svg",
     "keywords": [
     "metis",
@@ -35,9 +35,9 @@
     "chainId": 1088,
     "address": "0x6F05709bc91Bad933346F9E159f0D3FdBc2c9DCE",
     "decimals": 18,
-    "name": "Hera Token",
-    "symbol": "HERA",
-    "logoURI": "https://raw.githubusercontent.com/heraaggregator/tokens/main/0x6f05709bc91bad933346f9e159f0d3fdbc2c9dce/logo.png"
+    "name": "GEEKO Token",
+    "symbol": "GEEKO",
+    "logoURI": "https://www.geekocoin.com/fav.png"
     },
     {
     "chainId": 1088,
