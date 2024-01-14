@@ -15,9 +15,9 @@ function Footer() {
             <img src="images/fuk.png" alt="" className='hithere mt-2 sm:mt-0' />
 
         </div>
-        <img src="images/line.png" alt="" className=' mx-auto' />
+        <img src="images/line.png" alt="" className=' mx-auto hidden sm:block' />
 
-        <div className=' flex justify-between items-center mt-9 mb-4 flex-col sm:flex-row gap-2'>
+        <div className=' flex justify-between items-center mt-2 sm:mt-9 mb-4 flex-col sm:flex-row gap-2'>
             <div className=' flex items-center gap-4 z-[99999]'>
                 <a href="https://x.com/geekocoin" className=' text-2xl sm:text-xl text-[#fff] font-normal cursor-pointer'><FaTwitter /></a>
                 <a href="/" className=' text-2xl sm:text-xl text-[#fff] font-normal cursor-pointer'><img src="images/bsc.png" alt="" className=' h-[24px] sm:h-auto' /></a>
