@@ -12,18 +12,18 @@ function Footer() {
         <div className=' flex flex-col sm:flex-row items-center justify-between mb-1 sm:mb-[2rem]'>
             <img src="images/logo.png" alt="" />
 
-            <img src="images/fuk.png" alt="" className='hithere' />
+            <img src="images/fuk.png" alt="" className='hithere mt-2 sm:mt-0' />
 
         </div>
         <img src="images/line.png" alt="" className=' mx-auto' />
 
         <div className=' flex justify-between items-center mt-9 mb-4 flex-col sm:flex-row gap-2'>
             <div className=' flex items-center gap-4 z-[99999]'>
-                <a href="https://x.com/geekocoin" className=' text-xl text-[#fff] font-normal cursor-pointer'><FaTwitter /></a>
-                <a href="/" className=' text-xl text-[#fff] font-normal cursor-pointer'><img src="images/bsc.png" alt="" /></a>
-                <a href="https://t.me/geekocoin" className=' text-xl text-[#fff] font-normal'><FaTelegramPlane /></a>
-                <a href="/" className=' text-xl text-[#fff] font-normal cursor-pointer'><FaMedium /></a>
-                <a href="/" className=' text-xl text-[#fff] font-normal cursor-pointer'><SiGitbook /></a>
+                <a href="https://x.com/geekocoin" className=' text-2xl sm:text-xl text-[#fff] font-normal cursor-pointer'><FaTwitter /></a>
+                <a href="/" className=' text-2xl sm:text-xl text-[#fff] font-normal cursor-pointer'><img src="images/bsc.png" alt="" className=' h-[24px] sm:h-auto' /></a>
+                <a href="https://t.me/geekocoin" className=' text-2xl sm:text-xl text-[#fff] font-normal'><FaTelegramPlane /></a>
+                <a href="/" className=' text-2xl sm:text-xl text-[#fff] font-normal cursor-pointer'><FaMedium /></a>
+                <a href="/" className=' text-2xl sm:text-xl text-[#fff] font-normal cursor-pointer'><SiGitbook /></a>
 
             </div>
             <div className=' flex gap-4 items-center z-50'>
